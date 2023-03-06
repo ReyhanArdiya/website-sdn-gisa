@@ -20,18 +20,19 @@ const UrbanFarming2023: NextPage = () => {
                         <span className="UFHero__heading--green">Farming</span> 2023
                     </h1>
                     <h2>SDN Gisikdrono 01</h2>
-                    <a className="btn">Baca Lebih Lanjut</a>
+                    <a className="btn" href="#opening">
+                        Baca Lebih Lanjut
+                    </a>
                 </div>
-
-                <p className="UFHero__footer">- scroll bawah -</p>
             </header>
 
-            <section className="section">
+            <section className="section" id="opening">
                 <p>Halo warga GISA!</p>
                 <img
                     className="img"
                     alt="Photo Warga GISA"
                     title="Photo Warga GISA"
+                    src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/opening.jpg"
                 />
                 <p>
                     Menurutmu, apakah sayur mayur hanya dapat tumbuh hijau dan sehat
@@ -53,6 +54,7 @@ const UrbanFarming2023: NextPage = () => {
                     className="img"
                     alt="Photo Warga GISA"
                     title="Photo Warga GISA"
+                    src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/gotong-royong.jpeg"
                 />
             </section>
 
@@ -67,6 +69,7 @@ const UrbanFarming2023: NextPage = () => {
                     className="img"
                     alt="Photo Warga GISA"
                     title="Photo Warga GISA"
+                    src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/cat_pot.jpg"
                 />
             </section>
 
@@ -84,6 +87,7 @@ const UrbanFarming2023: NextPage = () => {
                     className="img"
                     alt="Photo Warga GISA"
                     title="Photo Warga GISA"
+                    src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/pot_tertata.jpg"
                 />
             </section>
 
@@ -99,6 +103,7 @@ const UrbanFarming2023: NextPage = () => {
                     className="img"
                     alt="Photo Warga GISA"
                     title="Photo Warga GISA"
+                    src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/manen.JPG"
                 />
             </section>
 
@@ -118,6 +123,7 @@ const UrbanFarming2023: NextPage = () => {
                     className="img"
                     alt="Photo Warga GISA"
                     title="Photo Warga GISA"
+                    src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/masak.jpg"
                 />
             </section>
         </>

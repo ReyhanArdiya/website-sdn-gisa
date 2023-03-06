@@ -156,8 +156,9 @@ table {
 }
 
 .img {
-    width: calc(280em / 16);
-    height: calc(210em / 16);
+    width: 100%;
+    max-width: calc(560em / 16);
+    /* max-height: calc(210em / 16); */
     object-fit: cover;
     border-radius: 8px;
     background-color: gray;
