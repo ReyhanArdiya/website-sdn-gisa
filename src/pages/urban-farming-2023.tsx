@@ -5,7 +5,7 @@ const UrbanFarming2023: NextPage = () => {
         <>
             <header className="UFHero">
                 <video autoPlay muted loop playsInline className="UFHero__video">
-                    <source src="https://firebasestorage.googleapis.com/v0/b/sdngisa-18335.appspot.com/o/lomba_urban_farming_2023%2Fkids.mp4?alt=media&token=b9d4590e-c0d0-4f4c-9360-508714e23d8d" />
+                    <source src="https://firebasestorage.googleapis.com/v0/b/sdngisa-18335.appspot.com/o/lomba_urban_farming_2023%2Fkids.mp4?alt=media&token=60f62bf1-5bcf-4c33-be5b-b651f18f3221" />
                 </video>
                 <img
                     src="https://firebasestorage.googleapis.com/v0/b/sdngisa-18335.appspot.com/o/logo_gisa.png?alt=media&token=28bfbafd-f25a-424f-add6-d65630965531"
@@ -125,6 +125,28 @@ const UrbanFarming2023: NextPage = () => {
                     title="Photo Warga GISA"
                     src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/masak.jpg"
                 />
+            </section>
+
+            <section className="section">
+                <p>
+                    Jika Anda tertarik dengan perjuangan kami, click video di bawah
+                    ini dan saksikan usaha kami sepenuhnya!
+                </p>
+                <a
+                    href="https://www.youtube.com/watch?v=c9yHisNVEQE"
+                    target="_blank"
+                >
+                    <video
+                        autoPlay
+                        className="img"
+                        loop
+                        muted
+                        playsInline
+                        poster="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/thumbnail_uf.jpg"
+                    >
+                        <source src="https://firebasestorage.googleapis.com/v0/b/sdngisa-18335.appspot.com/o/lomba_urban_farming_2023%2Fteaser_uf.mp4?alt=media&token=b57f1e3e-4071-4064-970e-8796af72d266" />
+                    </video>
+                </a>
             </section>
         </>
     );
