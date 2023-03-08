@@ -217,11 +217,11 @@ table {
 }
 
 /* urban Farming 2023 */
-.UFHero * {
+.Hero * {
     z-index: 1;
 }
 
-.UFHero {
+.Hero {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -233,7 +233,7 @@ table {
     min-height: 812px;
 }
 
-.UFHero::before {
+.Hero::before {
     content: "";
     position: absolute;
     top: 0;
@@ -248,7 +248,7 @@ table {
     opacity: 0.5;
 }
 
-.UFHero__video {
+.Hero__video {
     position: absolute;
     top: 0;
     left: 0;
@@ -258,12 +258,12 @@ table {
     z-index: 0;
 }
 
-.UFHero__logo {
+.Hero__logo {
     width: 160px;
     height: 164.89px;
 }
 
-.UFHero__heading {
+.Hero__heading {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -271,7 +271,7 @@ table {
     max-width: 375px;
 }
 
-.UFHero__heading h1 {
+.Hero__heading h1 {
     font-family: "Bungee", cursive;
     font-style: normal;
     font-weight: 400;
@@ -281,15 +281,15 @@ table {
     color: #ffffff;
 }
 
-.UFHero__heading--purple {
+.Hero__heading--purple {
     color: #5969fd;
 }
 
-.UFHero__heading--green {
+.Hero__heading--green {
     color: #b7f5af;
 }
 
-.UFHero__heading h2 {
+.Hero__heading h2 {
     font-family: "Inknut Antiqua", serif;
     font-style: normal;
     font-weight: 500;
@@ -300,7 +300,7 @@ table {
     margin-bottom: 24px;
 }
 
-.UFHero__footer {
+.Hero__footer {
     font-family: "Hind Madurai";
     font-style: normal;
     font-weight: 700;

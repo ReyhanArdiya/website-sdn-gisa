@@ -3,21 +3,21 @@ import { type NextPage } from "next";
 const UrbanFarming2023: NextPage = () => {
     return (
         <>
-            <header className="UFHero">
-                <video autoPlay muted loop playsInline className="UFHero__video">
+            <header className="Hero">
+                <video autoPlay muted loop playsInline className="Hero__video">
                     <source src="https://firebasestorage.googleapis.com/v0/b/sdngisa-18335.appspot.com/o/lomba_urban_farming_2023%2Fkids.mp4?alt=media&token=60f62bf1-5bcf-4c33-be5b-b651f18f3221" />
                 </video>
                 <img
                     src="https://firebasestorage.googleapis.com/v0/b/sdngisa-18335.appspot.com/o/logo_gisa.png?alt=media&token=28bfbafd-f25a-424f-add6-d65630965531"
-                    className="UFHero__logo"
+                    className="Hero__logo"
                     title="Logo GISA"
                     alt="Logo GISA"
                 />
 
-                <div className="UFHero__heading">
+                <div className="Hero__heading">
                     <h1>
-                        Lomba <span className="UFHero__heading--purple">Urban</span>{" "}
-                        <span className="UFHero__heading--green">Farming</span> 2023
+                        Lomba <span className="Hero__heading--purple">Urban</span>{" "}
+                        <span className="Hero__heading--green">Farming</span> 2023
                     </h1>
                     <h2>SDN Gisikdrono 01</h2>
                     <a className="btn" href="#opening">
