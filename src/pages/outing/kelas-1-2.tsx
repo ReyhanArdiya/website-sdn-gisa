@@ -23,8 +23,9 @@ const OutingKelas12 = ({}: OutingKelas12Props) => {
 
                 <div className="Hero__heading">
                     <h1>
-                        SDN <span className="Hero__heading--purple">GISA</span> Goes
-                        to <span className="Hero__heading--green">Maerakaca!</span>
+                        Class <span className="Hero__heading--purple">1 & 2</span>{" "}
+                        Goes to{" "}
+                        <span className="Hero__heading--green">Maerakaca!</span>
                     </h1>
                     <h2>SDN Gisikdrono 01</h2>
                     <a className="btn" href="#opening">
