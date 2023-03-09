@@ -315,7 +315,8 @@ table {
 
 /* Gallery */
 .gallery {
-    --image-width: calc(430em / 16);
+    --image-width: calc(4 * 90em / 16);
+    --image-height: calc(3 * 90em / 16);
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -342,12 +343,13 @@ table {
     justify-content: center;
     flex-wrap: wrap;
     gap: inherit;
-    max-width: calc(3 * var(--image-width) + 2 * 8px);
+    /* max-width: calc(3 * var(--image-width) + 2 * 8px); */
+    width: 100%;
 }
 
 .gallery__display img {
     width: var(--image-width);
-    height: calc(300em / 16);
+    height: var(--image-height);
     object-fit: cover;
     border-radius: 8px;
     background-color: gray;
