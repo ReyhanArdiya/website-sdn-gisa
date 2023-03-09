@@ -193,6 +193,46 @@
     color: #ffffff;
 }
 
+/* Gallery */
+.gallery {
+    --image-width: calc(430em / 16);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Hind Madurai";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    gap: 8px;
+    justify-content: center;
+    line-height: 22px;
+    margin: 0 auto;
+    padding: 20px 16px;
+    text-align: left;
+    width: 100%;
+}
+
+.gallery__text {
+    max-width: 680px;
+}
+
+.gallery__display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: inherit;
+    max-width: calc(3 * var(--image-width) + 2 * 8px);
+}
+
+.gallery__display img {
+    width: var(--image-width);
+    height: calc(300em / 16);
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: gray;
+}
+
 /* Berita type page */
 #postList > .alert-message h4 {
     border: 2px solid gray;
