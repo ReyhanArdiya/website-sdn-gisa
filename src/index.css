@@ -346,9 +346,8 @@ table {
 }
 
 .gallery__display img {
-    width: 100%;
-    max-width: var(--image-width);
-    max-height: calc(300em / 16);
+    width: var(--image-width);
+    height: calc(300em / 16);
     object-fit: cover;
     border-radius: 8px;
     background-color: gray;
