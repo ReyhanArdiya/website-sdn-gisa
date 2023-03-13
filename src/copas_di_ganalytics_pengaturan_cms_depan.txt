@@ -1,3 +1,29 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
+  import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAaJ_jtKS9d47xr6nf0RxK7gBRiZIjqtYs",
+    authDomain: "sdngisa-18335.firebaseapp.com",
+    projectId: "sdngisa-18335",
+    storageBucket: "sdngisa-18335.appspot.com",
+    messagingSenderId: "833816445307",
+    appId: "1:833816445307:web:4fb2ddb18110098f8c7dde",
+    measurementId: "G-30E7F3EW2K"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+logEvent(analytics, "user_visit")
+  console.log(`Firebase ${app.name} is running and sending analytics!`)
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link
                     rel="preconnect"
@@ -195,7 +221,8 @@
 
 /* Gallery */
 .gallery {
-    --image-width: calc(430em / 16);
+    --image-width: calc(4 * 90em / 16);
+    --image-height: calc(3 * 90em / 16);
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -222,12 +249,13 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: inherit;
-    max-width: calc(3 * var(--image-width) + 2 * 8px);
+    /* max-width: calc(3 * var(--image-width) + 2 * 8px); */
+    width: 100%;
 }
 
 .gallery__display img {
     width: var(--image-width);
-    height: calc(300em / 16);
+    height: var(--image-height);
     object-fit: cover;
     border-radius: 8px;
     background-color: gray;
