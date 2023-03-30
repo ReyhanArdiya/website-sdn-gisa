@@ -38,6 +38,66 @@ const HomePage: NextPage = () => {
                     />
                 </div>
             </section>
+
+            <section className="home-section home-principal-greeting">
+                <header>
+                    <h3 className="text__h3">Sambutan Kepala Sekolah</h3>
+                    <h2 className="text__h2">
+                        Perkenalkan <span className="highlight">Kepsek</span> Kami.
+                    </h2>
+                </header>
+
+                <div className="principal-photo">
+                    <img
+                        src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg"
+                        alt="GISA"
+                    />
+
+                    <p>Sumarni, S. Pd.</p>
+                </div>
+
+                <p className="text__body">
+                    Assalamualaikum wr.wb. <br />
+                    Om swastyastu namo buddhaya.
+                    <br />
+                    <br />
+                    Salam sejahtera bagi kita semua,
+                    <br />
+                    <br />
+                    Bapak/Ibu/ Saudara/i, serta Anak-anak generasi penerus yang saya
+                    banggakan. Puji dan syukur kita panjatkan kehadirat Tuhan YME
+                    yang telah melimpahkan berkatNya bagi kita tanpa batas.
+                    <br />
+                    <br />
+                    Saya sampaikan terima kasih kepada Kepala Dinas Pendidikan Kota
+                    Semarang, Bapak Gunawan Saptogiri, S.H., M.M. beserta jajaran
+                    yang telah memfasilitasi SDN Gisikdrono 01 untuk dapat memiliki
+                    website sekolah.
+                    <br />
+                    <br />
+                    Sungguh ada harapan besar bagi keluarga besar SDN Gisikdrono 01
+                    Semarang, di masa mendatang untuk semakin terpacu dalam
+                    meningkatkan pelayanan kepada masyarakat di bidang pendidikan,
+                    khususnya bagi peserta didik SDN Gisikdrono 01. Dengan
+                    dimilikinya website sekolah, saya juga berharap akan semakin
+                    menjalin komunikasi yang harmonis dengan masyarakat, mempermudah
+                    stakeholder dalam mengakses segala informasi yang ada di sekolah,
+                    serta memupuk kompetensi warga sekolah dalam mewujudkan visi-misi
+                    sekolah.
+                    <br />
+                    <br />
+                    Semoga kita semua senantiasa dalam lindungan dan bimbingan Tuhan.
+                    <br />
+                    <br />
+                    Wassalamualaikum wr.wb.
+                </p>
+
+                <img
+                    className="decor__hello"
+                    src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__hello.png"
+                    alt="dekorasi"
+                />
+            </section>
         </main>
     );
 };
