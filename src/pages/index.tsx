@@ -21,6 +21,23 @@ const HomePage: NextPage = () => {
                     />
                 </header>
             </section>
+
+            <section className="home-banner">
+                <div className="home-banner__content">
+                    <img
+                        src="https://firebasestorage.googleapis.com/v0/b/sdngisa-18335.appspot.com/o/logo_gisa.png?alt=media&token=28bfbafd-f25a-424f-add6-d65630965531"
+                        className="home-banner__logo"
+                        title="Logo GISA"
+                        alt="Logo GISA"
+                    />
+
+                    <img
+                        src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg"
+                        className="home-banner__photo"
+                        alt="GISA"
+                    />
+                </div>
+            </section>
         </main>
     );
 };
