@@ -378,3 +378,105 @@ table {
 div#postList > .alert-message > :nth-child(n + 2) {
     display: none;
 }
+
+/* HOME PAGE */
+/* prefix with home- */
+
+/* Colors */
+:root {
+    --black: #1b1b1b;
+    --gray: #1b1b1b99;
+    --green: #b4fe98;
+    --orange: #fe6244;
+    --violet: #998ceb;
+}
+
+.text__green {
+    color: var(--green);
+}
+
+.text__orange {
+    color: var(--orange);
+}
+
+.text__violet {
+    color: var(--violet);
+}
+
+.text_black {
+    color: var(--black);
+}
+
+.text__gray {
+    color: var(--gray);
+}
+
+/* general typography */
+.text__h1 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100px;
+    color: var(--black);
+}
+
+.text__h2 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: var(--black);
+}
+
+.text__h3 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--gray);
+}
+
+.text__body {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--black);
+}
+
+/* specific coomponents */
+.home-stack {
+    display: flex;
+    row-gap: 30px;
+}
+
+.home-hero {
+    padding: 60px 30px 0 30px;
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.home-hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 315px;
+}
+
+.decor__waved-cactus {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    right: -96.46px;
+    top: 28.23px;
+    transform: rotate(-15deg);
+    z-index: -1;
+}
