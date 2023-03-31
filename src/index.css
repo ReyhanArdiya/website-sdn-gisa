@@ -740,6 +740,56 @@ div#postList > .alert-message > :nth-child(n + 2) {
             url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg");
 }
 
+.santun {
+    background: linear-gradient(
+            0deg,
+            rgba(187, 249, 179, 0.25),
+            rgba(187, 249, 179, 0.25)
+        ),
+        no-repeat center/cover
+            url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas5_outing_kendri2023_makbar.jpg");
+}
+
+.mandiri {
+    background: linear-gradient(
+            0deg,
+            rgba(187, 249, 179, 0.25),
+            rgba(187, 249, 179, 0.25)
+        ),
+        no-repeat center/cover
+            url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/cat_pot.jpg");
+}
+
+.aktif {
+    background: linear-gradient(
+            0deg,
+            rgba(187, 249, 179, 0.25),
+            rgba(187, 249, 179, 0.25)
+        ),
+        no-repeat center/cover
+            url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas5_outing_kendri2023_ikan.png");
+}
+
+.ramah {
+    background: linear-gradient(
+            0deg,
+            rgba(187, 249, 179, 0.25),
+            rgba(187, 249, 179, 0.25)
+        ),
+        no-repeat center/cover
+            url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas3_outing_maerakaca2023_kapal.jpg");
+}
+
+.terampil {
+    background: linear-gradient(
+            0deg,
+            rgba(187, 249, 179, 0.25),
+            rgba(187, 249, 179, 0.25)
+        ),
+        no-repeat center/cover
+            url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/pesta_siaga(3).jpeg");
+}
+
 .value-cards {
     display: flex;
     gap: 30px;
@@ -798,6 +848,7 @@ div#postList > .alert-message > :nth-child(n + 2) {
     padding: 20px;
     gap: 20px;
     border-radius: 10px;
+    width: 100%;
 }
 
 .feature-highlight:hover {
@@ -914,6 +965,10 @@ div#postList > .alert-message > :nth-child(n + 2) {
     display: none;
 }
 
+.school-events__carousel a {
+    text-decoration: none;
+}
+
 .event-card {
     flex-shrink: 0;
     display: flex;
@@ -926,8 +981,35 @@ div#postList > .alert-message > :nth-child(n + 2) {
     width: 346px;
     height: 600px;
     overflow: hidden;
-    background: no-repeat center/cover
-        url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+    background-color: var(--green);
+}
+
+.C4D2023 {
+    background-image: url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas4_outing_bakery2023_intro.jpeg");
+}
+
+.C5K2023 {
+    background-image: url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas5_outing_kendri2023_intro.jpg");
+}
+
+.C1MCK2023 {
+    background-image: url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas12_intro.png");
+}
+
+.C3MCK2023 {
+    background-image: url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas3_outing_maerakaca2023_intro.jpg");
+}
+
+.UBF2023 {
+    background-image: url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/opening.jpg");
+}
+
+.ISM2023 {
+    background-image: url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/WhatsApp%20Image%202023-02-22%20at%2010.25.42.jpeg");
 }
 
 .event-card__content {
@@ -937,6 +1019,25 @@ div#postList > .alert-message > :nth-child(n + 2) {
     align-items: center;
     padding: 20px;
     gap: 10px;
+}
+
+.event-card:hover {
+    /* background-size: 400%; */
+}
+
+/* if mobile, dont hide content */
+@media screen and (min-width: 992px) {
+    .event-card__content {
+        opacity: 0;
+        bottom: -2em;
+        position: relative;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .event-card:hover .event-card__content {
+        opacity: 1;
+        bottom: 0;
+    }
 }
 
 .event-card__content h3 {
@@ -959,6 +1060,9 @@ div#postList > .alert-message > :nth-child(n + 2) {
     line-height: 28px;
     /* or 200% */
     color: #ffffff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 140px;
 }
 
 .decor__clock {
@@ -974,7 +1078,7 @@ div#postList > .alert-message > :nth-child(n + 2) {
     justify-content: center;
     flex-direction: column;
     padding: 60px 0;
-    gap: 44px;
+    gap: 60px;
     width: 100%;
 }
 
@@ -1013,7 +1117,7 @@ div#postList > .alert-message > :nth-child(n + 2) {
     justify-content: start;
     overflow-x: scroll;
     padding: 0 67px;
-    gap: 30px;
+    gap: 50px;
 }
 
 /* hide scroll */
@@ -1032,6 +1136,8 @@ div#postList > .alert-message > :nth-child(n + 2) {
 .extra-achievements__carousel-item img {
     width: 240px;
     height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .extra-achievements__carousel-item h3 {

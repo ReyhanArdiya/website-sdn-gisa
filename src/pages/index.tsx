@@ -52,7 +52,7 @@ const HomePage: NextPage = () => {
 
                 <div className="principal-photo">
                     <img
-                        src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg"
+                        src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/IMG-20210522-WA0018_11zon.jpeg"
                         alt="GISA"
                     />
 
@@ -115,17 +115,17 @@ const HomePage: NextPage = () => {
                     <div className="home-school-history__content">
                         <div className="school-photos">
                             <img
-                                src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg"
+                                src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/20230331_084414.jpg"
                                 alt="GISA"
                                 className="school-photos__image"
                             />
                             <img
-                                src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg"
+                                src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/20230331_084328.jpg"
                                 alt="GISA"
                                 className="school-photos__image"
                             />
                             <img
-                                src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg"
+                                src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/20230331_084439.jpg"
                                 alt="GISA"
                                 className="school-photos__image"
                             />
@@ -171,22 +171,22 @@ const HomePage: NextPage = () => {
             </section>
 
             <section id="gisa-values" className="home-section">
-                <div className="value-cards">
-                    <div className="value-card">
+                <div className="value-cards ">
+                    <div className="value-card santun">
                         <p className="value-card__label highlight--orange">SANTUN</p>
                     </div>
-                    <div className="value-card">
+                    <div className="value-card mandiri">
                         <p className="value-card__label highlight--orange">
                             MANDIRI
                         </p>
                     </div>
-                    <div className="value-card">
+                    <div className="value-card aktif">
                         <p className="value-card__label highlight--orange">AKTIF</p>
                     </div>
-                    <div className="value-card">
+                    <div className="value-card ramah">
                         <p className="value-card__label highlight--orange">RAMAH</p>
                     </div>
-                    <div className="value-card">
+                    <div className="value-card terampil">
                         <p className="value-card__label highlight--orange">
                             TERAMPIL
                         </p>
@@ -204,7 +204,7 @@ const HomePage: NextPage = () => {
             <section id="school-facilities" className="home-section">
                 <div className="school-facilities__photo">
                     <img
-                        src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg"
+                        src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/20230331_084345.jpg"
                         alt="GISA"
                     />
                     <img
@@ -378,11 +378,11 @@ const HomePage: NextPage = () => {
 
                     <div className="school-facilities__photos">
                         <img
-                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg"
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/20230331_084355.jpg"
                             alt="GISA"
                         />
                         <img
-                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg"
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/20230331_084328.jpg"
                             alt="GISA"
                         />
 
@@ -411,83 +411,115 @@ const HomePage: NextPage = () => {
                     </header>
 
                     <ul className="school-events__carousel">
-                        <li className="event-card">
-                            <div className="event-card__content">
-                                <h3>Lomba Urban Farming 2023</h3>
-                                <p>
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                </p>
-                            </div>
-                        </li>
-                        <li className="event-card">
-                            <div className="event-card__content">
-                                <h3>Lomba Urban Farming 2023</h3>
-                                <p>
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                </p>
-                            </div>
-                        </li>
-                        <li className="event-card">
-                            <div className="event-card__content">
-                                <h3>Lomba Urban Farming 2023</h3>
-                                <p>
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                </p>
-                            </div>
-                        </li>
-                        <li className="event-card">
-                            <div className="event-card__content">
-                                <h3>Lomba Urban Farming 2023</h3>
-                                <p>
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                </p>
-                            </div>
-                        </li>
-                        <li className="event-card">
-                            <div className="event-card__content">
-                                <h3>Lomba Urban Farming 2023</h3>
-                                <p>
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                </p>
-                            </div>
-                        </li>
-                        <li className="event-card">
-                            <div className="event-card__content">
-                                <h3>Lomba Urban Farming 2023</h3>
-                                <p>
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                </p>
-                            </div>
-                        </li>
-                        <li className="event-card">
-                            <div className="event-card__content">
-                                <h3>Lomba Urban Farming 2023</h3>
-                                <p>
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
-                                </p>
-                            </div>
-                        </li>
+                        <a
+                            href="http://sdngisikdrono01.dikdas.semarangkota.go.id/read/class-4-goes-to-diryana-bakery"
+                            target="_blank"
+                        >
+                            <li className="event-card C4D2023">
+                                <div className="event-card__content">
+                                    <h3>Class 4 Goes to Diryana Bakery!</h3>
+                                    <p>
+                                        Tanggal 10 Maret 2023 merupakan hari yang
+                                        spesial bagi siswa kelas 4 karena mereka
+                                        outing class ke Diryana Bakery
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a
+                            href="http://sdngisikdrono01.dikdas.semarangkota.go.id/read/class-5-goes-to-kandri"
+                            target="_blank"
+                        >
+                            <li className="event-card C5K2023">
+                                <div className="event-card__content">
+                                    <h3>Class 5 Goes to Kandri</h3>
+                                    <p>
+                                        Selain kelas 1 & 2, di hari yang sama kelas 5
+                                        berkelana ke Desa Wisata Kandri!
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a
+                            href="http://sdngisikdrono01.dikdas.semarangkota.go.id/read/class-1-2-goes-to-maerakaca"
+                            target="_blank"
+                        >
+                            <li className="event-card C1MCK2023">
+                                <div className="event-card__content">
+                                    <h3>Class 1 & 2 Goes to Maerakaca!</h3>
+                                    <p>
+                                        Pagi hari Selasa 7 Maret 2023, terlihat
+                                        gejala-gejala bahwa hari ini merupakan hari
+                                        yang berbeda. Para murid kelas 1 & 2 bergegas
+                                        memasuki sekolah mengenakan pakaian olahraga
+                                        merah muda merona dan kumpulan orang tua
+                                        menunggu di depan sekolah dengan membawa
+                                        bekal-bekal yang lezat. Ketidaksabaran pekat
+                                        terngiang dalam atmosfir apel karena para
+                                        siswa dan orang tua tahu bahwa hari ini hari
+                                        yang spesial: outing class ke Grand
+                                        Maerakaca.
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a
+                            href="http://sdngisikdrono01.dikdas.semarangkota.go.id/read/class-3-goes-to-maerakaca"
+                            target="_blank"
+                        >
+                            <li className="event-card C3MCK2023">
+                                <div className="event-card__content">
+                                    <h3>Class 3 Goes to Maerakaca!</h3>
+                                    <p>
+                                        Kegembiraan minggu ini diawali dengan outing
+                                        class kelas 3 menuju Grand Maerakaca!
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a
+                            href="http://sdngisikdrono01.dikdas.semarangkota.go.id/read/lomba-urban-farming-2023"
+                            target="_blank"
+                        >
+                            <li className="event-card UBF2023">
+                                <div className="event-card__content">
+                                    <h3>Lomba Urban Farming 2023</h3>
+                                    <p>
+                                        Menurutmu, apakah sayur mayur hanya dapat
+                                        tumbuh hijau dan sehat di lahan pertanian
+                                        saja? Tidak selalu! Kali ini, kami warga SDN
+                                        Gisikdrono 01 membuktikan mampu mendorong
+                                        ketahanan pangan dalam lingkungan kami dengan
+                                        mengikuti lomba urban farming!
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a
+                            href="http://sdngisikdrono01.dikdas.semarangkota.go.id/read/kegiatan-isra-miraj"
+                            target="_blank"
+                        >
+                            <li className="event-card ISM2023">
+                                <div className="event-card__content">
+                                    <h3>Kegiatan Isra mi&apos;raj</h3>
+                                    <p>
+                                        Dalam memperingati Isra Mi&apos;raj yang
+                                        jatuh pada hari Sabtu 18 Februai 2023, maka
+                                        pada hari Senin 20 Februari 2023 SDN
+                                        Gisikdrono 01 melaksanakan kegiatan
+                                        memperingati Isra Mi&apos;raj yang dilakukan
+                                        di halaman sekolah untuk salah satu bentuk
+                                        melaksanakan P5 dalam kegiatan mencerminkan
+                                        Profil Pelajar Pancasila (PPP).
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
                     </ul>
                 </section>
             </section>
@@ -502,27 +534,67 @@ const HomePage: NextPage = () => {
                 <ul id="extra-carousel" className="extra-achievements__carousel">
                     <li className="extra-achievements__carousel-item">
                         <img
-                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__jam.png"
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/pesta_siaga(3).jpeg"
                             alt="extra"
                         />
-                        <h3>Karate</h3>
+                        <h3>Ekstra Pramuka</h3>
                         <p className="text__h3">Setiap hari Kamis</p>
                     </li>
                     <li className="extra-achievements__carousel-item">
                         <img
-                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__jam.png"
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
                             alt="extra"
                         />
-                        <h3>Karate</h3>
+                        <h3>Ekstra Komputer</h3>
+                        <p className="text__h3">Setiap hari Senin & Rabu</p>
+                    </li>
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
+                            alt="extra"
+                        />
+                        <h3>Ekstra Bahasa Inggris</h3>
+                        <p className="text__h3">Setiap hari Rabu</p>
+                    </li>
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
+                            alt="extra"
+                        />
+                        <h3>Ekstra Musik</h3>
+                        <p className="text__h3">Setiap hari Jumat</p>
+                    </li>
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
+                            alt="extra"
+                        />
+                        <h3>Ekstra Paskibra</h3>
+                        <p className="text__h3">Setiap hari Senin</p>
+                    </li>
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/Screenshot%202023-03-31%20221005.png"
+                            alt="extra"
+                        />
+                        <h3>Ekstra Pencak Silat</h3>
                         <p className="text__h3">Setiap hari Kamis</p>
                     </li>
                     <li className="extra-achievements__carousel-item">
                         <img
-                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__jam.png"
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
                             alt="extra"
                         />
-                        <h3>Karate</h3>
-                        <p className="text__h3">Setiap hari Kamis</p>
+                        <h3>Ekstra Voli</h3>
+                        <p className="text__h3">Setiap hari Selasa</p>
+                    </li>
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
+                            alt="extra"
+                        />
+                        <h3>Ekstra BTQ</h3>
+                        <p className="text__h3">Setiap hari Selasa</p>
                     </li>
                 </ul>
 
@@ -549,27 +621,112 @@ const HomePage: NextPage = () => {
                 >
                     <li className="extra-achievements__carousel-item">
                         <img
-                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__jam.png"
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
                             alt="extra"
                         />
-                        <h3>Juara 1</h3>
-                        <p className="text__h3">Lomba pantomim</p>
+                        <h3>Rafellino Daiva Arsyad</h3>
+                        <p className="text__h3">
+                            JUARA 1 KYORUGI PRACADET C PUTRA PEMULA (PIALA WALIKOTA
+                            SOLO 2022)
+                        </p>
                     </li>
+
                     <li className="extra-achievements__carousel-item">
                         <img
-                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__jam.png"
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
                             alt="extra"
                         />
-                        <h3>Juara 1</h3>
-                        <p className="text__h3">Lomba pantomim</p>
+                        <h3>Serafina Desiree Ernanda</h3>
+                        <p className="text__h3">
+                            JUARA II TARI ANGSA (G FES TAR JATENG (GREGET FESTIVAL
+                            TARI JAWA TENGAH KE 30))
+                        </p>
                     </li>
+
                     <li className="extra-achievements__carousel-item">
                         <img
-                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__jam.png"
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
                             alt="extra"
                         />
-                        <h3>Juara 1</h3>
-                        <p className="text__h3">Lomba pantomim</p>
+                        <h3>Vega Nayshella Putri</h3>
+                        <p className="text__h3">
+                            TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA I
+                            TANDING KELAS A PUTRI TINGKAT SD/MI SEDERAJAT)
+                        </p>
+                    </li>
+
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
+                            alt="extra"
+                        />
+                        <h3>Vega Nayshella Putri</h3>
+                        <p className="text__h3">
+                            TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA I
+                            TANDING KELAS B PUTRI TINGKAT USIA DINI)
+                        </p>
+                    </li>
+
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
+                            alt="extra"
+                        />
+                        <h3>Rafel Alviano Setiyoko</h3>
+                        <p className="text__h3">
+                            TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA
+                            II TANDING KELAS BAWAH PUTRA TINGKAT SD/MI SEDERAJAT)
+                        </p>
+                    </li>
+
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
+                            alt="extra"
+                        />
+                        <h3>Aleisya Aura Shafira</h3>
+                        <p className="text__h3">
+                            TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA
+                            II TANDING KELAS BEBAS BAWAH PUTRI TINGKAT SD/MI
+                            SEDERAJAT)
+                        </p>
+                    </li>
+
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
+                            alt="extra"
+                        />
+                        <h3>Reino Pandu Richard Wijaya</h3>
+                        <p className="text__h3">
+                            TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA
+                            II TANDING KELAS BEBAS ATAS PUTRA TINGKAT SD/MI
+                            SEDERAJAT)
+                        </p>
+                    </li>
+
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
+                            alt="extra"
+                        />
+                        <h3>Bellandita Olivia Samsudin</h3>
+                        <p className="text__h3">
+                            TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA I
+                            TANDING KELAS BEBAS BAWAH PUTRI TINGKAT SD/MI SEDERAJAT)
+                        </p>
+                    </li>
+
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
+                            alt="extra"
+                        />
+                        <h3>Krizia Svana Nafilah Haryadi</h3>
+                        <p className="text__h3">
+                            TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA
+                            III TANDING KELAS E PUTRI TINGKAT SD/MI SEDERAJAT)
+                        </p>
                     </li>
                 </ul>
             </section>
