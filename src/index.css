@@ -464,15 +464,20 @@ div#postList > .alert-message > :nth-child(n + 2) {
     align-items: end;
     justify-content: center;
     width: max-content;
+    z-index: 2;
 }
 
 .highlight::before {
     content: "";
     position: absolute;
     height: 42%;
-    width: 110%;
+    width: calc(100% + 5px);
     background: var(--green);
     z-index: -1;
+}
+
+.highlight--orange::before {
+    background: var(--orange);
 }
 
 /* section */
@@ -483,6 +488,7 @@ div#postList > .alert-message > :nth-child(n + 2) {
     padding: 60px 30px;
     gap: 60px;
     max-width: 1280px;
+    margin: auto;
 }
 
 .home-section header {
@@ -632,4 +638,69 @@ div#postList > .alert-message > :nth-child(n + 2) {
     width: 100%;
     height: 360px;
     object-fit: contain;
+}
+
+/* School History */
+.home-school-history {
+    background-color: var(--violet);
+    width: 100%;
+}
+
+.home-school-history__content {
+    display: flex;
+    gap: inherit;
+    flex-direction: column;
+}
+
+/* .home-school-history header {
+    align-self: end;
+} */
+
+.school-photos {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 4px;
+    width: 315px;
+    position: relative;
+}
+
+.school-photos__image {
+    max-width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+    height: 102.33px;
+}
+
+.school-photos__image:first-of-type {
+    border-radius: 50px 50px 0px 0px;
+}
+
+.school-photos__image:nth-of-type(3) {
+    border-radius: 0px 0px 50px 50px;
+}
+
+.decor__book {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    transform: scaleX(-1);
+    right: -20px;
+    bottom: -40px;
+}
+
+@media screen and (min-width: 992px) {
+    .home-school-history__content {
+        flex-direction: row;
+    }
+
+    .home-school-history__content * {
+        flex: 1;
+    }
+
+    .school-photos {
+        order: 1;
+        max-width: 360px;
+        height: 360px;
+    }
 }

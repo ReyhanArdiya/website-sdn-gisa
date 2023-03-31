@@ -98,6 +98,76 @@ const HomePage: NextPage = () => {
                     alt="dekorasi"
                 />
             </section>
+
+            <section className="home-school-history">
+                <section className="home-section">
+                    <header>
+                        <h3 className="text__h3">Profil GISA</h3>
+                        <h2 className="text__h2">
+                            Mari{" "}
+                            <span className="highlight highlight--orange">
+                                Berkenalan
+                            </span>{" "}
+                            Dengan Kami.
+                        </h2>
+                    </header>
+                    <div className="home-school-history__content">
+                        <div className="school-photos">
+                            <img
+                                src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg"
+                                alt="GISA"
+                                className="school-photos__image"
+                            />
+                            <img
+                                src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg"
+                                alt="GISA"
+                                className="school-photos__image"
+                            />
+                            <img
+                                src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg"
+                                alt="GISA"
+                                className="school-photos__image"
+                            />
+                            <img
+                                src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__book.png"
+                                alt="GISA"
+                                className="decor__book"
+                            />
+                        </div>
+                        <p className="text__body">
+                            SD Gisikdrono 01 dibangun sejak tahun 1964 dan resmi
+                            dinegerikan pada 1 Oktober 1985. SD kami terletak di
+                            tengah perkampungan yang nyaman, cocok untuk menjauh dari
+                            hiruk-pikuk kehidupan kota.
+                            <br />
+                            <br />
+                            Sekolah kami terlihat sederhana, namun para murid dan
+                            guru membuatnya spesial. Setiap hari murid kami
+                            bersemangat memeriahkan pembelajaran di sekolah. Kami
+                            mendukung mereka untuk meraih KKM dengan bantuan
+                            guru-guru dan tenaga kependidikan yang berkompetensi.
+                            Karena ini, kami pernah meraih juara 1 rata-rata Ujian
+                            Nasional tingkat kecamatan dari tahun 2016-2018.
+                            <br />
+                            <br />
+                            Selain secara akademik, kami memfasilitasi murid kami
+                            untuk berprestasi secara non-akademik. Dengan berbagai
+                            ekstrakurikuler yang diadakan secara rutin dan
+                            latihan-latihan intensif yang kami berikan kepada
+                            murid-murid kami untuk berlomba, kami telah mencetak
+                            berbagai prestasi mulai dari juara harapan pesta siaga
+                            hingga medali emas pencak silat tingkat nasional.
+                            <br />
+                            <br />
+                            Selama berkegiatan, kami selalu menghargai tujuan, visi,
+                            dan misi kami. Kami bekerja sama dengan berbagai pihak
+                            seperti orang tua murid, Puskesmas Lebdosari, dkk. untuk
+                            merealisasikan acara-acara yang menanam nilai-nilai
+                            positif kepada murid kami.
+                        </p>
+                    </div>
+                </section>
+            </section>
         </main>
     );
 };
