@@ -3,7 +3,7 @@ import { type NextPage } from "next";
 const HomePage: NextPage = () => {
     return (
         <main className="home-stack">
-            <section className="home-hero">
+            <section id="home-hero" className="home-hero">
                 <header className="home-hero__content">
                     <h3 className="text__h3">Selamat datang!</h3>
                     <h1 className="text__h1">
@@ -22,7 +22,7 @@ const HomePage: NextPage = () => {
                 </header>
             </section>
 
-            <section className="home-banner">
+            <section id="home-banner" className="home-banner">
                 <div className="home-banner__content">
                     <img
                         src="https://firebasestorage.googleapis.com/v0/b/sdngisa-18335.appspot.com/o/logo_gisa.png?alt=media&token=28bfbafd-f25a-424f-add6-d65630965531"
@@ -39,7 +39,10 @@ const HomePage: NextPage = () => {
                 </div>
             </section>
 
-            <section className="home-section home-principal-greeting">
+            <section
+                id="home-principal-greeting"
+                className="home-section home-principal-greeting"
+            >
                 <header>
                     <h3 className="text__h3">Sambutan Kepala Sekolah</h3>
                     <h2 className="text__h2">
@@ -99,15 +102,13 @@ const HomePage: NextPage = () => {
                 />
             </section>
 
-            <section className="home-school-history">
+            <section id="home-school-history" className="home-school-history">
                 <section className="home-section">
                     <header>
                         <h3 className="text__h3">Profil GISA</h3>
                         <h2 className="text__h2">
                             Mari{" "}
-                            <span className="highlight highlight--orange">
-                                Berkenalan
-                            </span>{" "}
+                            <span className="highlight--orange">Berkenalan</span>{" "}
                             Dengan Kami.
                         </h2>
                     </header>
@@ -167,6 +168,37 @@ const HomePage: NextPage = () => {
                         </p>
                     </div>
                 </section>
+            </section>
+
+            <section id="gisa-values" className="home-section">
+                <div className="value-cards">
+                    <div className="value-card">
+                        <p className="value-card__label highlight--orange">SANTUN</p>
+                    </div>
+                    <div className="value-card">
+                        <p className="value-card__label highlight--orange">
+                            MANDIRI
+                        </p>
+                    </div>
+                    <div className="value-card">
+                        <p className="value-card__label highlight--orange">AKTIF</p>
+                    </div>
+                    <div className="value-card">
+                        <p className="value-card__label highlight--orange">RAMAH</p>
+                    </div>
+                    <div className="value-card">
+                        <p className="value-card__label highlight--orange">
+                            TERAMPIL
+                        </p>
+                    </div>
+                </div>
+
+                <p className="text__body">
+                    5 nilai tersebut kami pegang selalu selama kami menjadi warga
+                    GISA. Nilai-nilai tersebut telah memandu kami sampai sekarang dan
+                    mereka akan memandu kami kedepannya untuk merealisasikan target
+                    besar kami untuk menjadi peka dengan pemanfaatan teknologi.
+                </p>
             </section>
         </main>
     );
