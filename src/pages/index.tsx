@@ -399,6 +399,98 @@ const HomePage: NextPage = () => {
                     </div>
                 </div>
             </section>
+
+            <section id="school-events">
+                <section className="home-section">
+                    <header>
+                        <h3 className="text__h3">Kegiatan GISA</h3>
+                        <h2 className="text__h2">
+                            <span className="highlight--orange">Mengoptimalkan</span>
+                            Waktu Luang.
+                        </h2>
+                    </header>
+
+                    <ul className="school-events__carousel">
+                        <li className="event-card">
+                            <div className="event-card__content">
+                                <h3>Lomba Urban Farming 2023</h3>
+                                <p>
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                </p>
+                            </div>
+                        </li>
+                        <li className="event-card">
+                            <div className="event-card__content">
+                                <h3>Lomba Urban Farming 2023</h3>
+                                <p>
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                </p>
+                            </div>
+                        </li>
+                        <li className="event-card">
+                            <div className="event-card__content">
+                                <h3>Lomba Urban Farming 2023</h3>
+                                <p>
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                </p>
+                            </div>
+                        </li>
+                        <li className="event-card">
+                            <div className="event-card__content">
+                                <h3>Lomba Urban Farming 2023</h3>
+                                <p>
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                </p>
+                            </div>
+                        </li>
+                        <li className="event-card">
+                            <div className="event-card__content">
+                                <h3>Lomba Urban Farming 2023</h3>
+                                <p>
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                </p>
+                            </div>
+                        </li>
+                        <li className="event-card">
+                            <div className="event-card__content">
+                                <h3>Lomba Urban Farming 2023</h3>
+                                <p>
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                </p>
+                            </div>
+                        </li>
+                        <li className="event-card">
+                            <div className="event-card__content">
+                                <h3>Lomba Urban Farming 2023</h3>
+                                <p>
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                    Lorem ipsum dolor domo. Lorem ipsum dolor domo.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </section>
         </main>
     );
 };

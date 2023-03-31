@@ -884,3 +884,79 @@ div#postList > .alert-message > :nth-child(n + 2) {
     top: 6.85px;
     transform: rotate(26.5deg);
 }
+
+/* School events */
+#school-events {
+    background-color: var(--violet);
+    width: 100%;
+}
+
+#school-events header {
+    margin-left: 30px;
+}
+
+#school-events .home-section {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.school-events__carousel {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    overflow-x: auto;
+    padding: 0 15px;
+    gap: 30px;
+}
+
+/* hide scroll */
+.school-events__carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.event-card {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    border-radius: 10px;
+    position: relative;
+    width: 346px;
+    height: 600px;
+    overflow: hidden;
+    background: no-repeat center/cover
+        url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg");
+}
+
+.event-card__content {
+    background: #fe6244cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.event-card__content h3 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 54px;
+    /* identical to box height, or 270% */
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+}
+
+.event-card__content p {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    color: #ffffff;
+}
