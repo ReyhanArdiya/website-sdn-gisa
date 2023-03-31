@@ -34,6 +34,10 @@ logEvent(analytics, "user_visit")
                     href="https://fonts.googleapis.com/css2?family=Bungee&family=Inknut+Antiqua:wght@500&family=Hind+Madurai:wght@400;700&display=swap"
                     rel="stylesheet"
                 />
+<link
+                    href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap"
+                    rel="stylesheet"
+                ></link>
 
 <style type="text/css">
 
@@ -285,5 +289,776 @@ div#postList > .alert-message > :nth-child(n + 2) {
     display: none;
 }
 
+
+/* HOME PAGE */
+/* prefix with home- */
+
+/* Colors */
+:root {
+    --black: #1b1b1b;
+    --gray: #1b1b1b99;
+    --green: #b4fe98;
+    --orange: #fe6244;
+    --violet: #998ceb;
+}
+
+.text__green {
+    color: var(--green);
+}
+
+.text__orange {
+    color: var(--orange);
+}
+
+.text__violet {
+    color: var(--violet);
+}
+
+.text_black {
+    color: var(--black);
+}
+
+.text__gray {
+    color: var(--gray);
+}
+
+/* general typography */
+.text__h1 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100px;
+    color: var(--black);
+}
+
+.text__h2 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: var(--black);
+}
+
+.text__h3 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--gray);
+}
+
+.text__body {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--black);
+}
+
+/* specific coomponents */
+.home-stack {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+    overflow: hidden;
+}
+
+/* highlights */
+.highlight,
+.highlight--orange {
+    position: relative;
+    display: inline-flex;
+    align-items: end;
+    justify-content: center;
+    width: max-content;
+    z-index: 2;
+}
+
+.highlight::before,
+.highlight--orange::before {
+    content: "";
+    position: absolute;
+    height: 42%;
+    width: calc(100% + 5px);
+    background: var(--green);
+    z-index: -1;
+}
+
+.highlight--orange::before {
+    background: var(--orange);
+}
+
+/* section */
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 30px;
+    gap: 60px;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.home-section__header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+/* hero */
+.home-hero {
+    padding: 60px 30px 0 30px;
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+}
+
+.home-hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 315px;
+}
+
+.decor__waved-cactus {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    right: -96.46px;
+    top: 28.23px;
+    transform: rotate(-15deg);
+    z-index: -1;
+}
+
+.decor__lokasi {
+    width: 160px;
+    height: 160px;
+    margin-top: -72px;
+}
+
+/* banner */
+.home-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+    width: 100%;
+    position: relative;
+    padding: 0 27.5px;
+}
+
+.home-banner::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    background: var(--green);
+}
+
+.home-banner__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 52px;
+    max-width: 640px;
+    width: 100%;
+}
+
+.home-banner__logo {
+    width: 200px;
+    height: 203.73px;
+    filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.4));
+}
+
+.home-banner__photo {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+/* Principal greeting */
+.home-principal-greeting {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "photo"
+        "text"
+        "decor";
+}
+
+@media screen and (min-width: 992px) {
+    .home-principal-greeting {
+        grid-template-areas:
+            "header header"
+            "photo text"
+            "decor text";
+        grid-auto-rows: min-content;
+    }
+
+    .home-principal-greeting__header {
+        grid-area: header;
+    }
+
+    .principal-photo {
+        grid-area: photo;
+    }
+
+    .home-principal-greeting__p {
+        grid-area: text;
+    }
+
+    .decor__hello {
+        grid-area: decor;
+    }
+}
+
+.principal-photo {
+    width: 315px;
+    justify-self: center;
+}
+
+.principal-photo img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    z-index: 1;
+    position: relative;
+}
+
+.principal-photo p {
+    background-color: var(--orange);
+    padding: 8px 24px;
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 54px;
+    margin-top: -40px;
+    z-index: 2;
+    position: relative;
+}
+
+.decor__hello {
+    width: 100%;
+    height: 360px;
+    object-fit: contain;
+}
+
+/* School History */
+.home-school-history {
+    background-color: var(--violet);
+    width: 100%;
+}
+
+.home-school-history__content {
+    display: flex;
+    gap: inherit;
+    flex-direction: column;
+}
+
+/* .home-school-history header {
+    align-self: end;
+} */
+
+.school-photos {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 4px;
+    width: 315px;
+    position: relative;
+}
+
+.school-photos__image {
+    max-width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+    height: 102.33px;
+}
+
+.school-photos__image:first-of-type {
+    border-radius: 50px 50px 0px 0px;
+}
+
+.school-photos__image:nth-of-type(3) {
+    border-radius: 0px 0px 50px 50px;
+}
+
+.decor__book {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    transform: scaleX(-1);
+    right: -20px;
+    bottom: -40px;
+}
+
+@media screen and (min-width: 992px) {
+    .home-school-history__content {
+        flex-direction: row;
+    }
+
+    .home-school-history__content * {
+        flex: 1;
+    }
+
+    .school-photos {
+        order: 1;
+        max-width: 360px;
+        height: 360px;
+    }
+}
+
+/* GISA Values */
+#gisa-values {
+    align-items: center;
+}
+
+.gisa-values__p {
+    text-align: center;
+    max-width: 600px;
+}
+
+.value-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    background-color: var(--green);
+    border-radius: 10px;
+    background: linear-gradient(
+            0deg,
+            rgba(187, 249, 179, 0.25),
+            rgba(187, 249, 179, 0.25)
+        ),
+        no-repeat center/cover
+            url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/sd%20gisikdrono%2001.jpg");
+}
+
+.santun {
+    background: linear-gradient(
+            0deg,
+            rgba(187, 249, 179, 0.25),
+            rgba(187, 249, 179, 0.25)
+        ),
+        no-repeat center/cover
+            url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas5_outing_kendri2023_makbar.jpg");
+}
+
+.mandiri {
+    background: linear-gradient(
+            0deg,
+            rgba(187, 249, 179, 0.25),
+            rgba(187, 249, 179, 0.25)
+        ),
+        no-repeat center/cover
+            url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/cat_pot.jpg");
+}
+
+.aktif {
+    background: linear-gradient(
+            0deg,
+            rgba(187, 249, 179, 0.25),
+            rgba(187, 249, 179, 0.25)
+        ),
+        no-repeat center/cover
+            url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas5_outing_kendri2023_ikan.png");
+}
+
+.ramah {
+    background: linear-gradient(
+            0deg,
+            rgba(187, 249, 179, 0.25),
+            rgba(187, 249, 179, 0.25)
+        ),
+        no-repeat center/cover
+            url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas3_outing_maerakaca2023_kapal.jpg");
+}
+
+.terampil {
+    background: linear-gradient(
+            0deg,
+            rgba(187, 249, 179, 0.25),
+            rgba(187, 249, 179, 0.25)
+        ),
+        no-repeat center/cover
+            url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/pesta_siaga(3).jpeg");
+}
+
+.value-cards {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    max-width: 940px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.value-card__label {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+/* School facilities */
+#school-facilities {
+    align-items: center;
+}
+
+.school-facilities__photo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.school-facilities__photo img:first-of-type {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 992px) {
+    .school-facilities__intro {
+        text-align: right;
+    }
+}
+
+.school-facilities__list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px;
+    gap: 4px;
+}
+
+.feature-highlight {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.feature-highlight:hover {
+    background: linear-gradient(
+        94.07deg,
+        #daffd6 0.02%,
+        rgba(243, 255, 214, 0.35) 100.02%
+    );
+}
+
+.feature-highlight svg {
+    width: 30px;
+    height: 22.5px;
+    flex-shrink: 0;
+}
+
+.feature-highlight p {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--gray);
+}
+
+.school-facilities__facilities {
+    gap: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.school-facilities__photos {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    max-width: 400px;
+    height: 293.7px;
+}
+
+@media screen and (min-width: 992px) {
+    .school-facilities__facilities {
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    .school-facilities__photos {
+        height: 367.21px;
+    }
+}
+
+.school-facilities__photos img:not([class^="decor__"]) {
+    --image-size: min(calc(174vw / 375 * 100), 217.6px);
+    width: var(--image-size);
+    height: var(--image-size);
+    object-fit: cover;
+    position: absolute;
+}
+
+.school-facilities__photos img:first-of-type {
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+.school-facilities__photos img:nth-of-type(2) {
+    bottom: 0;
+    right: 0;
+}
+
+.decor__s {
+    position: absolute;
+    width: 108.8px;
+    height: 108.8px;
+    left: 10.88px;
+    bottom: 41.14px;
+}
+
+.decor__daun {
+    position: absolute;
+    width: 108.8px;
+    height: 108.8px;
+    right: -1.44px;
+    top: 6.85px;
+    transform: rotate(26.5deg);
+}
+
+/* School events */
+#school-events {
+    background-color: var(--violet);
+    width: 100%;
+}
+
+.school-events__header {
+    margin-left: 30px;
+}
+
+#school-events .home-section {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.school-events__carousel {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    overflow-x: auto;
+    padding: 0 15px;
+    gap: 30px;
+}
+
+/* hide scroll */
+.school-events__carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.school-events__carousel a {
+    text-decoration: none;
+}
+
+.event-card {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    border-radius: 10px;
+    position: relative;
+    width: 346px;
+    height: 600px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+    background-color: var(--green);
+}
+
+.C4D2023 {
+    background-image: url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas4_outing_bakery2023_intro.jpeg");
+}
+
+.C5K2023 {
+    background-image: url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas5_outing_kendri2023_intro.jpg");
+}
+
+.C1MCK2023 {
+    background-image: url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas12_intro.png");
+}
+
+.C3MCK2023 {
+    background-image: url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/kelas3_outing_maerakaca2023_intro.jpg");
+}
+
+.UBF2023 {
+    background-image: url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/opening.jpg");
+}
+
+.ISM2023 {
+    background-image: url("http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/WhatsApp%20Image%202023-02-22%20at%2010.25.42.jpeg");
+}
+
+.event-card__content {
+    background: #fe6244cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.event-card:hover {
+    /* background-size: 400%; */
+}
+
+/* if mobile, dont hide content */
+@media screen and (min-width: 992px) {
+    .event-card__content {
+        opacity: 0;
+        bottom: -2em;
+        position: relative;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .event-card:hover .event-card__content {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+.event-card__content__h3 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 54px;
+    /* identical to box height, or 270% */
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+}
+
+.event-card__content p {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    color: #ffffff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 140px;
+}
+
+.decor__clock {
+    width: 200px;
+    height: 200px;
+    transform: matrix(-0.97, -0.26, -0.26, 0.97, 0, 0);
+}
+
+/* Extra Achievements */
+#extra-achievements {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 0;
+    gap: 60px;
+    width: 100%;
+}
+
+#extra-achievements header {
+    position: relative;
+}
+
+.decor__trophy {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    right: -100.5px;
+    top: -82px;
+    transform: rotate(15deg);
+    z-index: -1;
+}
+
+.decor__badge {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: -80px;
+    top: 15.25px;
+    transform: rotate(-15deg);
+}
+
+#extra-achievements h2 {
+    text-align: center;
+    z-index: 3;
+    position: relative;
+}
+
+.extra-achievements__carousel {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    overflow-x: scroll;
+    padding: 0 67px;
+    gap: 50px;
+}
+
+/* hide scroll */
+.extra-achievements__carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.extra-achievements__carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.extra-achievements__carousel-item img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.extra-achievements__carousel-item__h3 {
+    font-family: "Commissioner";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 54px;
+    text-align: center;
+    color: var(--black);
+}
 </style>
 

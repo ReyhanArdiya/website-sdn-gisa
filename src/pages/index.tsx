@@ -2,27 +2,27 @@ import { type NextPage } from "next";
 
 const HomePage: NextPage = () => {
     return (
-        <main className="home-stack">
-            <section id="home-hero" className="home-hero">
-                <header className="home-hero__content">
-                    <h3 className="text__h3">Selamat datang!</h3>
-                    <h1 className="text__h1">
+        <div className="home-stack">
+            <div id="home-hero" className="home-hero">
+                <div className="home-hero__content">
+                    <div className="text__h3">Selamat datang!</div>
+                    <div className="text__h1">
                         Halo Warga <span className="text__green">GISA</span>.
-                    </h1>
-                    <p className="text__body">
+                    </div>
+                    <div className="text__body">
                         Mari berkenalan dengan keluarga{" "}
                         <span className="text__orange">SDN Gisikdrono 01</span> yang
                         penuh dengan antusias dan kehangatan.
-                    </p>
+                    </div>
                     <img
                         className="decor__waved-cactus"
                         src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__waved-cactus.png"
                         alt="dekorasi"
                     />
-                </header>
-            </section>
+                </div>
+            </div>
 
-            <section id="home-banner" className="home-banner">
+            <div id="home-banner" className="home-banner">
                 <div className="home-banner__content">
                     <img
                         src="https://firebasestorage.googleapis.com/v0/b/sdngisa-18335.appspot.com/o/logo_gisa.png?alt=media&token=28bfbafd-f25a-424f-add6-d65630965531"
@@ -37,18 +37,18 @@ const HomePage: NextPage = () => {
                         alt="GISA"
                     />
                 </div>
-            </section>
+            </div>
 
-            <section
+            <div
                 id="home-principal-greeting"
                 className="home-section home-principal-greeting"
             >
-                <header>
-                    <h3 className="text__h3">Sambutan Kepala Sekolah</h3>
-                    <h2 className="text__h2">
+                <div className="home-section__header">
+                    <div className="text__h3">Sambutan Kepala Sekolah</div>
+                    <div className="text__h2 home-principal-greeting__header">
                         Perkenalkan <span className="highlight">Kepsek</span> Kami.
-                    </h2>
-                </header>
+                    </div>
+                </div>
 
                 <div className="principal-photo">
                     <img
@@ -59,7 +59,7 @@ const HomePage: NextPage = () => {
                     <p>Sumarni, S. Pd.</p>
                 </div>
 
-                <p className="text__body">
+                <div className="text__body home-principal-greeting__p">
                     Assalamualaikum wr.wb. <br />
                     Om swastyastu namo buddhaya.
                     <br />
@@ -93,25 +93,25 @@ const HomePage: NextPage = () => {
                     <br />
                     <br />
                     Wassalamualaikum wr.wb.
-                </p>
+                </div>
 
                 <img
                     className="decor__hello"
                     src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__hello.png"
                     alt="dekorasi"
                 />
-            </section>
+            </div>
 
-            <section id="home-school-history" className="home-school-history">
-                <section className="home-section">
-                    <header>
-                        <h3 className="text__h3">Profil GISA</h3>
-                        <h2 className="text__h2">
+            <div id="home-school-history" className="home-school-history">
+                <div className="home-section">
+                    <div className="home-section__header">
+                        <div className="text__h3">Profil GISA</div>
+                        <div className="text__h2">
                             Mari{" "}
                             <span className="highlight--orange">Berkenalan</span>{" "}
                             Dengan Kami.
-                        </h2>
-                    </header>
+                        </div>
+                    </div>
                     <div className="home-school-history__content">
                         <div className="school-photos">
                             <img
@@ -135,7 +135,7 @@ const HomePage: NextPage = () => {
                                 className="decor__book"
                             />
                         </div>
-                        <p className="text__body">
+                        <div className="text__body">
                             SD Gisikdrono 01 dibangun sejak tahun 1964 dan resmi
                             dinegerikan pada 1 Oktober 1985. SD kami terletak di
                             tengah perkampungan yang nyaman, cocok untuk menjauh dari
@@ -165,43 +165,49 @@ const HomePage: NextPage = () => {
                             seperti orang tua murid, Puskesmas Lebdosari, dkk. untuk
                             merealisasikan acara-acara yang menanam nilai-nilai
                             positif kepada murid kami.
-                        </p>
+                        </div>
                     </div>
-                </section>
-            </section>
+                </div>
+            </div>
 
-            <section id="gisa-values" className="home-section">
+            <div id="gisa-values" className="home-section">
                 <div className="value-cards ">
                     <div className="value-card santun">
-                        <p className="value-card__label highlight--orange">SANTUN</p>
+                        <div className="value-card__label highlight--orange">
+                            SANTUN
+                        </div>
                     </div>
                     <div className="value-card mandiri">
-                        <p className="value-card__label highlight--orange">
+                        <div className="value-card__label highlight--orange">
                             MANDIRI
-                        </p>
+                        </div>
                     </div>
                     <div className="value-card aktif">
-                        <p className="value-card__label highlight--orange">AKTIF</p>
+                        <div className="value-card__label highlight--orange">
+                            AKTIF
+                        </div>
                     </div>
                     <div className="value-card ramah">
-                        <p className="value-card__label highlight--orange">RAMAH</p>
+                        <div className="value-card__label highlight--orange">
+                            RAMAH
+                        </div>
                     </div>
                     <div className="value-card terampil">
-                        <p className="value-card__label highlight--orange">
+                        <div className="value-card__label highlight--orange">
                             TERAMPIL
-                        </p>
+                        </div>
                     </div>
                 </div>
 
-                <p className="text__body">
+                <div className="text__body gisa-values__p">
                     5 nilai tersebut kami pegang selalu selama kami menjadi warga
                     GISA. Nilai-nilai tersebut telah memandu kami sampai sekarang dan
                     mereka akan memandu kami kedepannya untuk merealisasikan target
                     besar kami untuk menjadi peka dengan pemanfaatan teknologi.
-                </p>
-            </section>
+                </div>
+            </div>
 
-            <section id="school-facilities" className="home-section">
+            <div id="school-facilities" className="home-section">
                 <div className="school-facilities__photo">
                     <img
                         src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/20230331_084345.jpg"
@@ -214,15 +220,15 @@ const HomePage: NextPage = () => {
                     />
                 </div>
 
-                <p className="text__body school-facilities__intro">
+                <div className="text__body school-facilities__intro">
                     Secara administrasi Sekolah Dasar (SD) Negeri Gisikdrono 01
                     beralamat di Jalan Puspogiwang IV No.8, Kelurahan Gisikdrono,
                     Kecamatan Semarang Barat, Kota Semarang, Provinsi Jawa Tengah.
-                </p>
+                </div>
 
                 <div className="school-facilities__facilities">
-                    <ul className="school-facilities__list">
-                        <li className="feature-highlight">
+                    <div className="school-facilities__list">
+                        <div className="feature-highlight">
                             <svg
                                 width="31"
                                 height="25"
@@ -236,8 +242,8 @@ const HomePage: NextPage = () => {
                                 />
                             </svg>
                             <p>Jarak tempuh ± 5 menit dari kota Propinsi</p>
-                        </li>
-                        <li className="feature-highlight">
+                        </div>
+                        <div className="feature-highlight">
                             <svg
                                 width="31"
                                 height="25"
@@ -251,8 +257,8 @@ const HomePage: NextPage = () => {
                                 />
                             </svg>
                             <p>1 bangunan utama dengan luas lahan 2.850 M²</p>
-                        </li>
-                        <li className="feature-highlight">
+                        </div>
+                        <div className="feature-highlight">
                             <svg
                                 width="31"
                                 height="25"
@@ -268,8 +274,8 @@ const HomePage: NextPage = () => {
                             <p>
                                 Dekat Masjid An-Nur, permukiman, dan berbagai warung
                             </p>
-                        </li>
-                        <li className="feature-highlight">
+                        </div>
+                        <div className="feature-highlight">
                             <svg
                                 width="31"
                                 height="25"
@@ -283,8 +289,8 @@ const HomePage: NextPage = () => {
                                 />
                             </svg>
                             <p>6 ruang kelas</p>
-                        </li>
-                        <li className="feature-highlight">
+                        </div>
+                        <div className="feature-highlight">
                             <svg
                                 width="31"
                                 height="25"
@@ -298,8 +304,8 @@ const HomePage: NextPage = () => {
                                 />
                             </svg>
                             <p>1 ruang guru</p>
-                        </li>
-                        <li className="feature-highlight">
+                        </div>
+                        <div className="feature-highlight">
                             <svg
                                 width="31"
                                 height="25"
@@ -313,8 +319,8 @@ const HomePage: NextPage = () => {
                                 />
                             </svg>
                             <p>1 ruang kepala sekolah</p>
-                        </li>
-                        <li className="feature-highlight">
+                        </div>
+                        <div className="feature-highlight">
                             <svg
                                 width="31"
                                 height="25"
@@ -328,8 +334,8 @@ const HomePage: NextPage = () => {
                                 />
                             </svg>
                             <p>1 perpustakaan</p>
-                        </li>
-                        <li className="feature-highlight">
+                        </div>
+                        <div className="feature-highlight">
                             <svg
                                 width="31"
                                 height="25"
@@ -343,8 +349,8 @@ const HomePage: NextPage = () => {
                                 />
                             </svg>
                             <p>1 UKS</p>
-                        </li>
-                        <li className="feature-highlight">
+                        </div>
+                        <div className="feature-highlight">
                             <svg
                                 width="31"
                                 height="25"
@@ -358,8 +364,8 @@ const HomePage: NextPage = () => {
                                 />
                             </svg>
                             <p>1 ruang agama</p>
-                        </li>
-                        <li className="feature-highlight">
+                        </div>
+                        <div className="feature-highlight">
                             <svg
                                 width="31"
                                 height="25"
@@ -373,8 +379,8 @@ const HomePage: NextPage = () => {
                                 />
                             </svg>
                             <p>1 lab komputer</p>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
 
                     <div className="school-facilities__photos">
                         <img
@@ -398,131 +404,112 @@ const HomePage: NextPage = () => {
                         />
                     </div>
                 </div>
-            </section>
+            </div>
 
-            <section id="school-events">
-                <section className="home-section">
-                    <header>
-                        <h3 className="text__h3">Kegiatan GISA</h3>
-                        <h2 className="text__h2">
+            <div id="school-events">
+                <div className="home-section">
+                    <div className="home-section__header school-events__header">
+                        <div className="text__h3">Kegiatan GISA</div>
+                        <div className="text__h2">
                             <span className="highlight--orange">Mengoptimalkan</span>
                             Waktu Luang.
-                        </h2>
-                    </header>
+                        </div>
+                    </div>
 
-                    <ul className="school-events__carousel">
-                        <a
-                            href="http://sdngisikdrono01.dikdas.semarangkota.go.id/read/class-4-goes-to-diryana-bakery"
-                            target="_blank"
-                        >
-                            <li className="event-card C4D2023">
-                                <div className="event-card__content">
-                                    <h3>Class 4 Goes to Diryana Bakery!</h3>
-                                    <p>
-                                        Tanggal 10 Maret 2023 merupakan hari yang
-                                        spesial bagi siswa kelas 4 karena mereka
-                                        outing class ke Diryana Bakery
-                                    </p>
+                    <div className="school-events__carousel">
+                        <div className="event-card C4D2023">
+                            <div className="event-card__content">
+                                <div className="event-card__content__h3">
+                                    Class 4 Goes to Diryana Bakery!
                                 </div>
-                            </li>
-                        </a>
+                                <p>
+                                    Tanggal 10 Maret 2023 merupakan hari yang spesial
+                                    bagi siswa kelas 4 karena mereka outing class ke
+                                    Diryana Bakery
+                                </p>
+                            </div>
+                        </div>
 
-                        <a
-                            href="http://sdngisikdrono01.dikdas.semarangkota.go.id/read/class-5-goes-to-kandri"
-                            target="_blank"
-                        >
-                            <li className="event-card C5K2023">
-                                <div className="event-card__content">
-                                    <h3>Class 5 Goes to Kandri</h3>
-                                    <p>
-                                        Selain kelas 1 & 2, di hari yang sama kelas 5
-                                        berkelana ke Desa Wisata Kandri!
-                                    </p>
+                        <div className="event-card C5K2023">
+                            <div className="event-card__content">
+                                <div className="event-card__content__h3">
+                                    Class 5 Goes to Kandri
                                 </div>
-                            </li>
-                        </a>
+                                <p>
+                                    Selain kelas 1 & 2, di hari yang sama kelas 5
+                                    berkelana ke Desa Wisata Kandri!
+                                </p>
+                            </div>
+                        </div>
 
-                        <a
-                            href="http://sdngisikdrono01.dikdas.semarangkota.go.id/read/class-1-2-goes-to-maerakaca"
-                            target="_blank"
-                        >
-                            <li className="event-card C1MCK2023">
-                                <div className="event-card__content">
-                                    <h3>Class 1 & 2 Goes to Maerakaca!</h3>
-                                    <p>
-                                        Pagi hari Selasa 7 Maret 2023, terlihat
-                                        gejala-gejala bahwa hari ini merupakan hari
-                                        yang berbeda. Para murid kelas 1 & 2 bergegas
-                                        memasuki sekolah mengenakan pakaian olahraga
-                                        merah muda merona dan kumpulan orang tua
-                                        menunggu di depan sekolah dengan membawa
-                                        bekal-bekal yang lezat. Ketidaksabaran pekat
-                                        terngiang dalam atmosfir apel karena para
-                                        siswa dan orang tua tahu bahwa hari ini hari
-                                        yang spesial: outing class ke Grand
-                                        Maerakaca.
-                                    </p>
+                        <div className="event-card C1MCK2023">
+                            <div className="event-card__content">
+                                <div className="event-card__content__h3">
+                                    Class 1 & 2 Goes to Maerakaca!
                                 </div>
-                            </li>
-                        </a>
+                                <p>
+                                    Pagi hari Selasa 7 Maret 2023, terlihat
+                                    gejala-gejala bahwa hari ini merupakan hari yang
+                                    berbeda. Para murid kelas 1 & 2 bergegas memasuki
+                                    sekolah mengenakan pakaian olahraga merah muda
+                                    merona dan kumpulan orang tua menunggu di depan
+                                    sekolah dengan membawa bekal-bekal yang lezat.
+                                    Ketidaksabaran pekat terngiang dalam atmosfir
+                                    apel karena para siswa dan orang tua tahu bahwa
+                                    hari ini hari yang spesial: outing class ke Grand
+                                    Maerakaca.
+                                </p>
+                            </div>
+                        </div>
 
-                        <a
-                            href="http://sdngisikdrono01.dikdas.semarangkota.go.id/read/class-3-goes-to-maerakaca"
-                            target="_blank"
-                        >
-                            <li className="event-card C3MCK2023">
-                                <div className="event-card__content">
-                                    <h3>Class 3 Goes to Maerakaca!</h3>
-                                    <p>
-                                        Kegembiraan minggu ini diawali dengan outing
-                                        class kelas 3 menuju Grand Maerakaca!
-                                    </p>
+                        <div className="event-card C3MCK2023">
+                            <div className="event-card__content">
+                                <div className="event-card__content__h3">
+                                    Class 3 Goes to Maerakaca!
                                 </div>
-                            </li>
-                        </a>
+                                <p>
+                                    Kegembiraan minggu ini diawali dengan outing
+                                    class kelas 3 menuju Grand Maerakaca!
+                                </p>
+                            </div>
+                        </div>
 
-                        <a
-                            href="http://sdngisikdrono01.dikdas.semarangkota.go.id/read/lomba-urban-farming-2023"
-                            target="_blank"
-                        >
-                            <li className="event-card UBF2023">
-                                <div className="event-card__content">
-                                    <h3>Lomba Urban Farming 2023</h3>
-                                    <p>
-                                        Menurutmu, apakah sayur mayur hanya dapat
-                                        tumbuh hijau dan sehat di lahan pertanian
-                                        saja? Tidak selalu! Kali ini, kami warga SDN
-                                        Gisikdrono 01 membuktikan mampu mendorong
-                                        ketahanan pangan dalam lingkungan kami dengan
-                                        mengikuti lomba urban farming!
-                                    </p>
+                        <div className="event-card UBF2023">
+                            <div className="event-card__content">
+                                <div className="event-card__content__h3">
+                                    Lomba Urban Farming 2023
                                 </div>
-                            </li>
-                        </a>
+                                <p>
+                                    Menurutmu, apakah sayur mayur hanya dapat tumbuh
+                                    hijau dan sehat di lahan pertanian saja? Tidak
+                                    selalu! Kali ini, kami warga SDN Gisikdrono 01
+                                    membuktikan mampu mendorong ketahanan pangan
+                                    dalam lingkungan kami dengan mengikuti lomba
+                                    urban farming!
+                                </p>
+                            </div>
+                        </div>
 
-                        <a
-                            href="http://sdngisikdrono01.dikdas.semarangkota.go.id/read/kegiatan-isra-miraj"
-                            target="_blank"
-                        >
-                            <li className="event-card ISM2023">
-                                <div className="event-card__content">
-                                    <h3>Kegiatan Isra mi&apos;raj</h3>
-                                    <p>
-                                        Dalam memperingati Isra Mi&apos;raj yang
-                                        jatuh pada hari Sabtu 18 Februai 2023, maka
-                                        pada hari Senin 20 Februari 2023 SDN
-                                        Gisikdrono 01 melaksanakan kegiatan
-                                        memperingati Isra Mi&apos;raj yang dilakukan
-                                        di halaman sekolah untuk salah satu bentuk
-                                        melaksanakan P5 dalam kegiatan mencerminkan
-                                        Profil Pelajar Pancasila (PPP).
-                                    </p>
+                        <div className="event-card ISM2023">
+                            <div className="event-card__content">
+                                <div className="event-card__content__h3">
+                                    Kegiatan Isra mi&apos;raj
                                 </div>
-                            </li>
-                        </a>
-                    </ul>
-                </section>
-            </section>
+                                <p>
+                                    Dalam memperingati Isra Mi&apos;raj yang jatuh
+                                    pada hari Sabtu 18 Februai 2023, maka pada hari
+                                    Senin 20 Februari 2023 SDN Gisikdrono 01
+                                    melaksanakan kegiatan memperingati Isra
+                                    Mi&apos;raj yang dilakukan di halaman sekolah
+                                    untuk salah satu bentuk melaksanakan P5 dalam
+                                    kegiatan mencerminkan Profil Pelajar Pancasila
+                                    (PPP).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <img
                 className="decor__clock"
@@ -530,73 +517,89 @@ const HomePage: NextPage = () => {
                 alt="dekorasi"
             />
 
-            <section id="extra-achievements">
-                <ul id="extra-carousel" className="extra-achievements__carousel">
-                    <li className="extra-achievements__carousel-item">
+            <div id="extra-achievements">
+                <div id="extra-carousel" className="extra-achievements__carousel">
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/pesta_siaga(3).jpeg"
                             alt="extra"
                         />
-                        <h3>Ekstra Pramuka</h3>
-                        <p className="text__h3">Setiap hari Kamis</p>
-                    </li>
-                    <li className="extra-achievements__carousel-item">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Ekstra Pramuka
+                        </div>
+                        <div className="text__h3">Setiap hari Kamis</div>
+                    </div>
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
                             alt="extra"
                         />
-                        <h3>Ekstra Komputer</h3>
-                        <p className="text__h3">Setiap hari Senin & Rabu</p>
-                    </li>
-                    <li className="extra-achievements__carousel-item">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Ekstra Komputer
+                        </div>
+                        <div className="text__h3">Setiap hari Senin & Rabu</div>
+                    </div>
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
                             alt="extra"
                         />
-                        <h3>Ekstra Bahasa Inggris</h3>
-                        <p className="text__h3">Setiap hari Rabu</p>
-                    </li>
-                    <li className="extra-achievements__carousel-item">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Ekstra Bahasa Inggris
+                        </div>
+                        <div className="text__h3">Setiap hari Rabu</div>
+                    </div>
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
                             alt="extra"
                         />
-                        <h3>Ekstra Musik</h3>
-                        <p className="text__h3">Setiap hari Jumat</p>
-                    </li>
-                    <li className="extra-achievements__carousel-item">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Ekstra Musik
+                        </div>
+                        <div className="text__h3">Setiap hari Jumat</div>
+                    </div>
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
                             alt="extra"
                         />
-                        <h3>Ekstra Paskibra</h3>
-                        <p className="text__h3">Setiap hari Senin</p>
-                    </li>
-                    <li className="extra-achievements__carousel-item">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Ekstra Paskibra
+                        </div>
+                        <div className="text__h3">Setiap hari Senin</div>
+                    </div>
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/Screenshot%202023-03-31%20221005.png"
                             alt="extra"
                         />
-                        <h3>Ekstra Pencak Silat</h3>
-                        <p className="text__h3">Setiap hari Kamis</p>
-                    </li>
-                    <li className="extra-achievements__carousel-item">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Ekstra Pencak Silat
+                        </div>
+                        <div className="text__h3">Setiap hari Kamis</div>
+                    </div>
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
                             alt="extra"
                         />
-                        <h3>Ekstra Voli</h3>
-                        <p className="text__h3">Setiap hari Selasa</p>
-                    </li>
-                    <li className="extra-achievements__carousel-item">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Ekstra Voli
+                        </div>
+                        <div className="text__h3">Setiap hari Selasa</div>
+                    </div>
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
                             alt="extra"
                         />
-                        <h3>Ekstra BTQ</h3>
-                        <p className="text__h3">Setiap hari Selasa</p>
-                    </li>
-                </ul>
+                        <div className="extra-achievements__carousel-item__h3">
+                            Ekstra BTQ
+                        </div>
+                        <div className="text__h3">Setiap hari Selasa</div>
+                    </div>
+                </div>
 
                 <header>
                     <img
@@ -604,10 +607,10 @@ const HomePage: NextPage = () => {
                         src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
                         alt="dekorasi"
                     />
-                    <h2 className="text__h2">
+                    <div className="text__h2">
                         Menanam Bibit-Bibit{" "}
                         <span className="text__green">Berprestasi</span>.
-                    </h2>
+                    </div>
                     <img
                         className="decor__trophy"
                         src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
@@ -615,122 +618,140 @@ const HomePage: NextPage = () => {
                     />
                 </header>
 
-                <ul
+                <div
                     id="achievements-carousel"
                     className="extra-achievements__carousel"
                 >
-                    <li className="extra-achievements__carousel-item">
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
                             alt="extra"
                         />
-                        <h3>Rafellino Daiva Arsyad</h3>
-                        <p className="text__h3">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Rafellino Daiva Arsyad
+                        </div>
+                        <div className="text__h3">
                             JUARA 1 KYORUGI PRACADET C PUTRA PEMULA (PIALA WALIKOTA
                             SOLO 2022)
-                        </p>
-                    </li>
+                        </div>
+                    </div>
 
-                    <li className="extra-achievements__carousel-item">
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
                             alt="extra"
                         />
-                        <h3>Serafina Desiree Ernanda</h3>
-                        <p className="text__h3">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Serafina Desiree Ernanda
+                        </div>
+                        <div className="text__h3">
                             JUARA II TARI ANGSA (G FES TAR JATENG (GREGET FESTIVAL
                             TARI JAWA TENGAH KE 30))
-                        </p>
-                    </li>
+                        </div>
+                    </div>
 
-                    <li className="extra-achievements__carousel-item">
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
                             alt="extra"
                         />
-                        <h3>Vega Nayshella Putri</h3>
-                        <p className="text__h3">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Vega Nayshella Putri
+                        </div>
+                        <div className="text__h3">
                             TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA I
                             TANDING KELAS A PUTRI TINGKAT SD/MI SEDERAJAT)
-                        </p>
-                    </li>
+                        </div>
+                    </div>
 
-                    <li className="extra-achievements__carousel-item">
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
                             alt="extra"
                         />
-                        <h3>Vega Nayshella Putri</h3>
-                        <p className="text__h3">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Vega Nayshella Putri
+                        </div>
+                        <div className="text__h3">
                             TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA I
                             TANDING KELAS B PUTRI TINGKAT USIA DINI)
-                        </p>
-                    </li>
+                        </div>
+                    </div>
 
-                    <li className="extra-achievements__carousel-item">
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
                             alt="extra"
                         />
-                        <h3>Rafel Alviano Setiyoko</h3>
-                        <p className="text__h3">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Rafel Alviano Setiyoko
+                        </div>
+                        <div className="text__h3">
                             TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA
                             II TANDING KELAS BAWAH PUTRA TINGKAT SD/MI SEDERAJAT)
-                        </p>
-                    </li>
+                        </div>
+                    </div>
 
-                    <li className="extra-achievements__carousel-item">
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
                             alt="extra"
                         />
-                        <h3>Aleisya Aura Shafira</h3>
-                        <p className="text__h3">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Aleisya Aura Shafira
+                        </div>
+                        <div className="text__h3">
                             TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA
                             II TANDING KELAS BEBAS BAWAH PUTRI TINGKAT SD/MI
                             SEDERAJAT)
-                        </p>
-                    </li>
+                        </div>
+                    </div>
 
-                    <li className="extra-achievements__carousel-item">
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
                             alt="extra"
                         />
-                        <h3>Reino Pandu Richard Wijaya</h3>
-                        <p className="text__h3">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Reino Pandu Richard Wijaya
+                        </div>
+                        <div className="text__h3">
                             TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA
                             II TANDING KELAS BEBAS ATAS PUTRA TINGKAT SD/MI
                             SEDERAJAT)
-                        </p>
-                    </li>
+                        </div>
+                    </div>
 
-                    <li className="extra-achievements__carousel-item">
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
                             alt="extra"
                         />
-                        <h3>Bellandita Olivia Samsudin</h3>
-                        <p className="text__h3">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Bellandita Olivia Samsudin
+                        </div>
+                        <div className="text__h3">
                             TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA I
                             TANDING KELAS BEBAS BAWAH PUTRI TINGKAT SD/MI SEDERAJAT)
-                        </p>
-                    </li>
+                        </div>
+                    </div>
 
-                    <li className="extra-achievements__carousel-item">
+                    <div className="extra-achievements__carousel-item">
                         <img
                             src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
                             alt="extra"
                         />
-                        <h3>Krizia Svana Nafilah Haryadi</h3>
-                        <p className="text__h3">
+                        <div className="extra-achievements__carousel-item__h3">
+                            Krizia Svana Nafilah Haryadi
+                        </div>
+                        <div className="text__h3">
                             TURNAMEN PENCAK SILAT GROBOGAN OPEN I TAHUN 2023 (JUARA
                             III TANDING KELAS E PUTRI TINGKAT SD/MI SEDERAJAT)
-                        </p>
-                    </li>
-                </ul>
-            </section>
-        </main>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 };
 
