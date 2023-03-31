@@ -491,6 +491,88 @@ const HomePage: NextPage = () => {
                     </ul>
                 </section>
             </section>
+
+            <img
+                className="decor__clock"
+                src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__jam.png"
+                alt="dekorasi"
+            />
+
+            <section id="extra-achievements">
+                <ul id="extra-carousel" className="extra-achievements__carousel">
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__jam.png"
+                            alt="extra"
+                        />
+                        <h3>Karate</h3>
+                        <p className="text__h3">Setiap hari Kamis</p>
+                    </li>
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__jam.png"
+                            alt="extra"
+                        />
+                        <h3>Karate</h3>
+                        <p className="text__h3">Setiap hari Kamis</p>
+                    </li>
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__jam.png"
+                            alt="extra"
+                        />
+                        <h3>Karate</h3>
+                        <p className="text__h3">Setiap hari Kamis</p>
+                    </li>
+                </ul>
+
+                <header>
+                    <img
+                        className="decor__badge"
+                        src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piagam.png"
+                        alt="dekorasi"
+                    />
+                    <h2 className="text__h2">
+                        Menanam Bibit-Bibit{" "}
+                        <span className="text__green">Berprestasi</span>.
+                    </h2>
+                    <img
+                        className="decor__trophy"
+                        src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__piala.png"
+                        alt="dekorasi"
+                    />
+                </header>
+
+                <ul
+                    id="achievements-carousel"
+                    className="extra-achievements__carousel"
+                >
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__jam.png"
+                            alt="extra"
+                        />
+                        <h3>Juara 1</h3>
+                        <p className="text__h3">Lomba pantomim</p>
+                    </li>
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__jam.png"
+                            alt="extra"
+                        />
+                        <h3>Juara 1</h3>
+                        <p className="text__h3">Lomba pantomim</p>
+                    </li>
+                    <li className="extra-achievements__carousel-item">
+                        <img
+                            src="http://sdngisikdrono01.dikdas.semarangkota.go.id/uploads/gallery/media/dekorasi__jam.png"
+                            alt="extra"
+                        />
+                        <h3>Juara 1</h3>
+                        <p className="text__h3">Lomba pantomim</p>
+                    </li>
+                </ul>
+            </section>
         </main>
     );
 };
